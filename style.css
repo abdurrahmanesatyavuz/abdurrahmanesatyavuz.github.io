@@ -1,0 +1,110 @@
+/* HOME SCREEN CSS*/
+
+nav{
+    background-color: #1D2C40;
+}
+
+.navbarFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1%;
+}
+
+.navbarText:hover, .navbarIcon:hover{
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.navbarText, .navbarIcon{
+    color: #8BADD9;
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.navbarIcons, .navbarItems{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbarItems{
+    gap: 70px;
+}
+
+.navbarIcons{
+    gap: 30px;
+}
+
+.bodyFlex{
+    background-color: #3D5473;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bodyName{
+    color: #BDD9F2;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 2px #AECCF2;
+}
+
+.imageSelf{
+    border-radius: 6%;
+    align-self: center;
+    max-width: 15%;
+    max-height: 15%;
+    opacity: 80%;
+}
+
+.bodyIntro{
+    color: #AECCF2;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8BADD9;
+}
+
+.bodyText{
+    color: #8BADD9;
+    margin-bottom: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+    width: 60%;
+    align-self: center;
+}
+
+@media only screen and (max-width: 520px) {
+    .navbarFlex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .navbarItems{
+        gap: 50px;
+    }
+
+    .navbarIcons {
+        padding: 0 20%;
+    }
+
+    .navbarItems {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageSelf{
+        max-width: 30%;
+        max-height: 30%;
+    }
+
+    .bodyText{
+        width: 80%;
+    }
+  }
