@@ -1,0 +1,176 @@
+/* HOME SCREEN CSS*/
+
+nav{
+    background-color: #403C36;
+}
+
+.navbarFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1%;
+}
+
+.navbarText:hover, .navbarIcon:hover{
+    color: #D7D9D7;
+    transition: 0.4s;
+}
+
+.navbarText, .navbarIcon{
+    color: #A69B8F;
+    transition: 0.4s;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.navbarIcons, .navbarItems{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbarItems{
+    gap: 70px;
+}
+
+.navbarIcons{
+    gap: 30px;
+}
+
+.bodyFlex{
+    background-color: #59544A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bodyName{
+    color: #BFB5A8;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 2px #b0a79b;
+}
+
+.imageSelf{
+    border-radius: 6%;
+    align-self: center;
+    max-width: 15%;
+    max-height: 15%;
+    opacity: 80%;
+}
+
+.bodyIntro{
+    color: #BFB5A8;
+    margin: 4%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px #b0a79b;
+}
+
+.bodyDivTeam{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    align-items: center;
+    background-color: #403C36;
+}
+
+.bodyText{
+    color: #BFB5A8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+    width: 40%;
+    align-self: center;
+    margin-right: 10%;
+}
+
+.imageTeam{
+    border-radius: 6%;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.bodyExplainText{
+    color: #BFB5A8;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.trailer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 20%;
+}
+
+@media only screen and (max-width: 520px) {
+    .navbarFlex {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .navbarItems{
+        gap: 50px;
+    }
+
+    .navbarIcons {
+        padding: 0 20%;
+    }
+
+    .navbarItems {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bodyName{
+        padding-top: 10%;
+    }
+
+    .imageSelf{
+        padding-top: 10%;
+        max-width: 30%;
+        max-height: 30%;
+    }
+    
+    .bodyIntro{
+        padding-top: 10%;
+    }
+
+    .bodyText{
+        width: 50%;
+        margin-right: 1%;
+        font-size: medium;
+    }
+
+    .imageTeam{
+        margin-left: 1%;
+        width: 40%;
+    }
+
+    .bodyDivTeam{
+        padding-top: 10%;
+        flex-direction: row;
+    }
+
+    .bodyExplainText{
+        padding-top: 10%;
+        font-size: medium;
+        width: 80%;
+    }
+
+    .trailer{
+        padding-top: 10%;
+        width: 60%;
+    }
+  }
