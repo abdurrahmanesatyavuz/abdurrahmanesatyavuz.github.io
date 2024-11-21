@@ -45,39 +45,40 @@ nav{
     flex-direction: column;
 }
 
-.bodyName{
-    color: #BFB5A8;
-    margin: 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
-    text-shadow: 1px 1px 2px #b0a79b;
-}
-
-.imageSelf{
-    border-radius: 6%;
-    align-self: center;
-    max-width: 15%;
-    max-height: 15%;
-    opacity: 80%;
-}
-
-.bodyIntro{
-    color: #BFB5A8;
-    margin: 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    text-shadow: 1px 1px 2px #b0a79b;
-}
-
 .bodyText{
     color: #BFB5A8;
-    margin-bottom: 4%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: larger;
-    width: 60%;
+    width: 55%;
     align-self: center;
+}
+
+.geschiedenis, .trabzonspor{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    align-items: center;
+}
+
+.gameOfThrones{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #403C36;
+}
+
+.image, .got{
+    width: 15%;
+    border-radius: 12px;
+}
+
+.ts61{
+    width: 20%;
+    border-radius: 12px;
 }
 
 .footerAll{
@@ -117,12 +118,30 @@ nav{
         align-items: center;
     }
 
-    .imageSelf{
-        max-width: 30%;
-        max-height: 30%;
-    }
-
     .bodyText{
         width: 80%;
+    }
+
+    .gameOfThrones{
+        flex-wrap: nowrap;
+        padding: 4%;
+    }
+
+    .image{
+        width: 40%;
+        height: 40%;
+        margin-left: 10%;
+    }
+
+    .ts61{
+        width: 40%;
+        height: 40%;
+        margin-left: 10%;
+    }
+
+    .got{
+        width: 40%;
+        height: 40%;
+        margin-right: 6%;
     }
   }

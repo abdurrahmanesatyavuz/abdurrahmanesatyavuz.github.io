@@ -1,4 +1,4 @@
-/* HOME SCREEN CSS*/
+/* Projecten CSS*/
 
 nav{
     background-color: #403C36;
@@ -13,7 +13,7 @@ nav{
 }
 
 .navbarText:hover, .navbarIcon:hover{
-    color: #FFFFFF;
+    color: #D7D9D7;
     transition: 0.4s;
 }
 
@@ -42,46 +42,79 @@ nav{
     background-color: #59544A;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bodyName{
     color: #BFB5A8;
     margin: 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     text-align: center;
     text-shadow: 1px 1px 2px #b0a79b;
 }
 
-.imageSelf{
-    border-radius: 6%;
-    align-self: center;
-    max-width: 15%;
-    max-height: 15%;
-    opacity: 80%;
+.projectTextAdventure{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #403C36;
+    color: #BFB5A8;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
-.bodyIntro{
-    color: #BFB5A8;
-    margin: 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+.allTitle{
     text-shadow: 1px 1px 2px #b0a79b;
+    padding-bottom: 1%;
 }
 
-.bodyText{
-    color: #BFB5A8;
-    margin-bottom: 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.projectTextAdventureImage{
+    border-radius: 12px;
+    width: 25%;
+    height: 25%;
+}
+
+.allTekst{
     text-align: center;
-    font-size: larger;
-    width: 60%;
-    align-self: center;
+    width: 61%;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.projectTextAdventureButton{
+    border-radius: 12px;
+    background-color: #BFB5A8;
+    color: #403C36;
+}
+
+.projectArcadeGame{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #BFB5A8;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.arcadeGameButton{
+    border-radius: 12px;
+    background-color: #403C36;
+    color: #BFB5A8;
+}
+
+.projectArcadeGameImage{
+    width: 15%;
+    height: 15%;
+    border-radius: 12px;
 }
 
 .footerAll{
-    background-color: #403C36;
+    background-color: #59544A;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -117,12 +150,23 @@ nav{
         align-items: center;
     }
 
-    .imageSelf{
-        max-width: 30%;
-        max-height: 30%;
+    .bodyName{
+        padding-top: 10%;
+        padding-bottom: 10%;
     }
 
-    .bodyText{
-        width: 80%;
+    .allTitle{
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
-  }
+
+    .image{
+        width: 61%;
+        height: 61%;
+    }
+
+    .allTekst{
+        width: 90%;
+        padding-top: 5%;
+    }
+}
