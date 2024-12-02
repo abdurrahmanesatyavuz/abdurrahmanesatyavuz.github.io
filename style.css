@@ -98,6 +98,11 @@ nav{
     color: inherit
 }
 
+.footerLink:hover{
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
 @media only screen and (max-width: 520px) {
     .navbarFlex {
         flex-direction: column;
