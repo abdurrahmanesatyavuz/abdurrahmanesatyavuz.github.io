@@ -87,6 +87,7 @@ nav{
 
 .projectTextAdventureButton{
     border-radius: 12px;
+    font-size: larger;
     background-color: #BFB5A8;
     color: #403C36;
 }
@@ -103,6 +104,7 @@ nav{
 
 .arcadeGameButton{
     border-radius: 12px;
+    font-size: larger;
     background-color: #403C36;
     color: #BFB5A8;
 }
